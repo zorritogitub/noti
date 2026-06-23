@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
+    namespace 'com.zorrito.flutterapp'
     compileSdk 34
     ndkVersion "26.3.11579264"
 
